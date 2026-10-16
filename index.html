@@ -252,25 +252,24 @@
             </div>
 
             <div class="about-style-one-bottom-info mt-50">
-                <!-- Добавляем display: flex и align-items: center, чтобы колонки встали строго по центру друг друга -->
-                <div class="row" style="display: flex; align-items: center;">
+                <div class="row align-items-center">
                     
-                    <!-- Левая колонка (Видео-превью) -->
-                    <div class="col-lg-8 pr-60 pr-md-15 pr-xs-15" style="margin-top: 0;">
-                        <div class="img-container" style="position: relative; border-radius: 20px; overflow: hidden;">
-                            <img src="assets/img/about/1.PNG" alt="Превью" style="width: 100%; display: block;">
+                    <!-- Левая колонка (Обложка видео) -->
+                    <div class="col-lg-7 col-md-6 mb-30">
+                        <div style="position: relative; border-radius: 20px; overflow: hidden; line-height: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                            <img src="assets/img/about/1.PNG" alt="Превью" style="width: 100%; height: auto; display: block; object-fit: contain;">
                             
                             <!-- Кнопка Play -->
-                            <div onclick="document.getElementById('videoModal').style.display='flex'" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 65px; height: 65px; background: #e50914; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 22px; cursor: pointer; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                            <div onclick="document.getElementById('videoModal').style.display='flex'" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 65px; height: 65px; background: #e50914; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 22px; cursor: pointer; box-shadow: 0 4px 20px rgba(0,0,0,0.3); z-index: 2;">
                                 <i class="fas fa-play" style="margin-left: 4px;"></i>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Правая колонка (Ваше второе фото) -->
-                    <div class="col-lg-4" style="margin-top: 0;">
-                        <div class="img-container" style="border-radius: 20px; overflow: hidden;">
-                            <img src="assets/img/about/2.PNG" alt="Команда" style="width: 100%; display: block;">
+                    <!-- Правая колонка (Фото команды) -->
+                    <div class="col-lg-5 col-md-6 mb-30">
+                        <div style="border-radius: 20px; overflow: hidden; line-height: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                            <img src="assets/img/about/2.PNG" alt="Команда" style="width: 100%; height: auto; display: block; object-fit: contain;">
                         </div>
                     </div>
 
